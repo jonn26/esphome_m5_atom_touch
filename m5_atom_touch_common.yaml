@@ -69,10 +69,9 @@ light:
     variant: SK6812
     pin: GPIO27
     num_leds: 1
-    name: $upper_devicename Status LED
     id: status_led
     restore_mode: ALWAYS_OFF
 
 esp32_touch:
-  setup_mode: True
+  #setup_mode: True
   iir_filter: 10ms
