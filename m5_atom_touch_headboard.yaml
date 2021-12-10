@@ -1,0 +1,5 @@
+substitutions:
+  devicename: headboard
+  upper_devicename: "Headboard"
+
+<<: !include m5_atom_touch_common.yaml
